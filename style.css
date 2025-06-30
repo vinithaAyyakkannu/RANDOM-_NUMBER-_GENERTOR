@@ -1,0 +1,63 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  padding: 50px;
+  margin: 0;
+  background-color: rgb(174, 229, 211);
+}
+
+h1 {
+  color: #040709;
+  font-size: 36px;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+input {
+  width: 200px;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(95, 111, 129, 0.6);
+}
+
+button {
+  background-color: #2e2022;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+#restartBtn {
+  background-color: #27ae60;
+  display: none;
+}
+
+#restartBtn:hover {
+  background-color: #1e8449;
+}
+
+#message {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#attempts {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #2c3e50;
+}
